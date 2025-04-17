@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 118px;
+    background: #FFA41D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 78px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 125%;
+    color: #FFF;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    margin-right: 24px;
+    justify-content: center;
+}
+
+.navbar a{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+}
+
+.navbar a:hover{
+    color: #ffffffc9;
+}
+
+.btn-header{
+    width: 135px;
+    height: 29px;  
+    background: transparent; 
+    border: 1px #fff solid;
+    font-size: 14px; 
+    font-weight: 500;
+    line-height: 17px;  
+    letter-spacing: 0.3px; 
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+
+
+.presentation{
+    background: linear-gradient(180deg, #FFA41D 0%, rgba(225, 150, 38, 0.60) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.text-home{
+    margin-top: 89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{ 
+    width: 1019px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.3px;
+    color: #FCFCFC;
+    margin-bottom: 10px;
+}
+
+.empresa-profissionais{
+    font-weight: 700;
+    line-height: 80px;
+}
+
+.subtitle-presentation{
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.btn-vermais{
+    width: 266px;
+    height: 53.398px;
+    border-radius: 20px;
+    background: linear-gradient(87deg, #FFA41D 4.36%, #FFAD33 93.5%);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    display: block;
+    margin: auto;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+    /*conteudo principal*/
+
+    #oq-fazemos{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        gap: 55px;
+    }
+
+    .title-oq-fazemos{
+        color: #0C0B0B;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0.5px;
+        width: 383px;
+        margin-bottom: 32px;
+    }
+    
+    .sub-title-sct01{
+        color: #888484;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.8px;
+        margin-bottom: 45px;
+        width: 693px;
+    }
+
+    .paragraph-sct01{
+        color: #888484;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.8px;
+        margin-bottom: 14px;
+        text-align: left;
+        width: 693px;
+    }
+
+    .vermais-sct01{
+        width: 186px;
+        height: 47.257px;
+        border-radius: 20px;
+        background: linear-gradient(87deg, #FFA41D 4.36%, #FFA41D 93.5%);
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+    }
+
+    .text-section-01{
+        padding: 127px 0 130px 83px;
+    }
+
+    .img-sct01{
+        width: 621.815px;
+        height: 416.943px;
+        margin: 154px 81px 159px 0;
+    }
+    
