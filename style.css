@@ -46,7 +46,8 @@ header{
 }
 
 .navbar a:hover{
-    color: #ffffffc9;
+    color: #00000062;
+    font-weight: 700;
 }
 
 .btn-header{
