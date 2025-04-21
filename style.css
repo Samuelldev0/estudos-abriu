@@ -63,6 +63,7 @@ header{
     color: #fff;
     display: block;
     margin: auto;
+    cursor: pointer;
 }
 
 
@@ -116,6 +117,17 @@ header{
     display: block;
     margin: auto;
     box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btn-vermais:hover{
+    width: 286px;
+    height: 63.398px;
+    transition: 0.2s;
+}
+
+.btn-vermais:active{
+    background: linear-gradient(87deg, #36240891 4.36%, #52381296 93.5%);
 }
 
     /*conteudo principal*/
@@ -125,6 +137,7 @@ header{
         width: 100vw;
         height: 100vh;
         gap: 55px;
+        background-color: #FBFBFB;
     }
 
     .title-oq-fazemos{
@@ -178,4 +191,63 @@ header{
         height: 416.943px;
         margin: 154px 81px 159px 0;
     }
+
+ 
+           /*section-para.empresas*/       
     
+    #para-empresas{
+        width: 100vw;
+        height: 100vh;
+        background-color: #FBFBFB;
+        display: flex;
+    }        
+
+    .line-yellow-sct02{
+        width: 74px;
+        height: 5.619px;
+        flex-shrink: 0;
+        background: #FFA41D;
+        margin-left: 81px;
+    }
+
+
+    .title-paraempresas{
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #0C0B0B;
+        margin-bottom: 8px;
+    }
+
+    .empresas{
+        color: #FFA41D;
+    }
+
+    .sub-title-sct02{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.8px;
+        color: #888484;
+        margin-bottom: 19px;
+    }
+
+    .paragraph-sct02{
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 47.507px;
+        letter-spacing: 0.989px;
+        color: #888484;
+        width: 654px;
+
+    }
+
+    .span-paragraph-sct02{
+        color: #FFAD33;
+    }
+
+    .img-sct02{
+        width: 733px;
+        height: 477px;
+    }
+
